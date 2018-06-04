@@ -1,5 +1,18 @@
 import subprocess
+import os
 
-output = subprocess.check_output(['ls', '-1'])
-print 'Have %d bytes in output' % len(output)
-print output
+# Actually changes the current working directory
+cwd = os.getcwd()
+#print(cwd)
+
+# Changes the directory and issues ls inside the directory and returns the command status
+#status = subprocess.call('cd ~;ls -al', shell=True)
+
+
+# execute shell script with stdout
+subprocess.call('sh echo.sh',shell=True)
+
+# execute shell script with stdout
+subprocess.call('sh echo.sh  > /dev/null 2>&1',shell=True)
+
+subprocess.Popen()
