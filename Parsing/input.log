@@ -1,0 +1,6 @@
+Jun  5 00:00:25 --- last message repeated 2 times ---
+Jun  5 00:00:25 usaeed-Mac com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun  5 00:00:55 --- last message repeated 2 times ---
+Jun  5 00:00:55 usaeed-Mac com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun  5 00:01:14 --- last message repeated 1 time ---
+Jun  5 00:01:14 usaeed-Mac syslogd[41]: ASL Sender Statistics
