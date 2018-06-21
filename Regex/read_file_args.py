@@ -1,3 +1,8 @@
+"""
+read raw input
+
+"""
+
 import sys
 
 
