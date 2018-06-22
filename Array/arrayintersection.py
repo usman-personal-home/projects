@@ -6,7 +6,11 @@ from binary_search import bin_search
 
 
 def intersection_unsorted(arr1, arr2):
-    pass
+    result = []
+    for i in arr1:
+        if i in arr2:
+            result.append(i)
+    return result
 
 
 def intersection_sorted(arr1, arr2):
@@ -52,9 +56,10 @@ def intersection_binsearch(arr1, arr2):
 
 if __name__ == '__main__':
 
-    arr1 = [1, 2, 3, 5, 6, 7, 13, 14, 15]
+    arr1 = [1, 2, 3, 5, 6, 7, 13, 14, 15, 19]
     arr2 = [4, 5, 6, 7, 8, 9, 11, 12, 13]
     #res = intersection_sorted(arr1, arr2)
     #print (res)
-    res = intersection_binsearch(arr1, arr2)
+
+    res = intersection_unsorted(arr1, arr2)
     print (res)

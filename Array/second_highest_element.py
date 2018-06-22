@@ -1,7 +1,8 @@
 if __name__ == '__main__':
     arr = [6, 6, 6, 5]
-    low = 0
+    high = 0
     second = 0
+
     for i in arr:
         if i > high:
             second = high

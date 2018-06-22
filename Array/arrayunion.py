@@ -5,7 +5,8 @@ from binary_search import bin_search
 
 
 def union_unsorted(arr1, arr2):
-    pass
+    result = list(set(arr1).union(arr2))
+    return result
 
 
 # noinspection PyUnreachableCode
@@ -72,9 +73,9 @@ def union_binsearch(arr1, arr2):
 
 
 if __name__ == '__main__':
-    arr1 = [1, 2, 3, 5, 6, 7]
+    arr1 = [12, 1, 2, 3, 5, 6, 7]
     arr2 = [5, 6, 7, 8, 9, 10, 11, 12, 13]
     #res = union_sorted(arr1, arr2)
 
-    res = union_binsearch(arr1, arr2)
+    res = union_unsorted(arr1, arr2)
     print (res)
